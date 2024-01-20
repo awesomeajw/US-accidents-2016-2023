@@ -37,13 +37,24 @@ After the cleaning and wrangling of data, we move the new dataset to Tableau for
 
 # Visualisations
 Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this link or the top of this report
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
-<img src = './images/waffle_property.png' width='1000'>
+<img src = './images/1map.png' width='1000'>
+<img src = './images/2states.png' width='1000'>
+<img src = './images/3city.png' width='1000'>
+<img src = './images/4sourceseverity.png' width='1000'>
+<img src = './images/5year.png' width='1000'>
+<img src = './images/6seasonal.png' width='1000'>
+<img src = './images/7month.png' width='1000'>
+<img src = './images/8dayofweek.png' width='1000'>
+<img src = './images/9time.png' width='1000'>
+<img src = './images/10temp.png' width='1000'>
+<img src = './images/11windchill.png' width='1000'>
+<img src = './images/12humidity.png' width='1000'>
+<img src = './images/13pressure.png' width='1000'>
+<img src = './images/14visibility.png' width='1000'>
+<img src = './images/15windspeed.png' width='1000'>
+<img src = './images/16facts.png' width='1000'>
+<img src = './images/17weather.png' width='1000'>
+<img src = './images/18weatherseverity.png' width='1000'>
 
 Key Insights:
 Summarize the key insights derived from your analysis. This could include trends, patterns, correlations, or any unexpected findings.
