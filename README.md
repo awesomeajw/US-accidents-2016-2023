@@ -78,16 +78,23 @@ Here is the steps taken:
 1. Look at the percentage of null values for each columns
 2. Decide whether the data should be filled up with means of value or dropped from the datset
 3. Inspect each of the columns carefully and check the values(ie, if its too much of an outlier)
-4. Transform measurements from the imperial system to the metric system
+4. Transform some measurements from the imperial system to the metric system
 5. Consolidate the values in columns to a more manageable size for better analysis 
 
 After the cleaning and wrangling of data, we move the new dataset to Tableau for visualisatioon and data analysis
 
 # Visualisations
-Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this link or the top of this report
+Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this [link](https://public.tableau.com/app/profile/aloysius.ang/viz/USaccident2016-2023/MainStory) or click on the link the top of this report
+
 <img src = './images/1map.png' width='1000'>
+1) First, we will look at the overall state of occurence of traffic accidents. There is a spot at the bottom left of US, where many of the traffic accidents happens. The accidents happens around the edge of US more often.
+
 <img src = './images/2states.png' width='1000'>
+2) Drilling down to the states, we can see that the states with the highest cases are California, Florida, Texas, South Carolina, New York and so on. The states with the lowest cases are South Dakota, Vermont, Maine, North Dakota, Wyoming and so on. The numbers from the first state to the last state is dramatically different. Compared to South Dakota, California have 7080x more cases of traffic accidents. The difference is alarming. This can be due to the density of the state and the amount of coverage the sources has on different states
+
 <img src = './images/3city.png' width='1000'>
+3) Drilling down to the cities view, we see that the cities with the highest cases are Miami, Houston, Los Angeles, Charlotte, Dallas. The cities with the lowest cases are actually a lot of them in together. There is 761 cities with only 1 traffic accident recorded from 2016 to 2023. This is very suspicious and would seems to be due to the coverage that these cities gets from the media.
+
 <img src = './images/4sourceseverity.png' width='1000'>
 <img src = './images/5year.png' width='1000'>
 <img src = './images/6seasonal.png' width='1000'>
