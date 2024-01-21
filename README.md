@@ -134,8 +134,8 @@ Switching to hourly chart, most accidents occur during the working hours with pe
 <p>&nbsp;</p>
 
 <img src = './images/10temp.png' width='500'><img src = './images/11windchill.png' width='500'>
-<img src = './images/12humidity.png' width='500'><img src = './images/13pressure.png' width='500'>
-<img src = './images/14visibility.png' width='600'><img src = './images/15windspeed.png' width='500'>
+<img src = './images/12humidity.png' width='506'><img src = './images/13pressure.png' width='500'>
+<img src = './images/14visibility.png' width='500'><img src = './images/15windspeed.png' width='500'>
 
 <img src = './images/16facts.png' width='500'>
 <p>&nbsp;</p>
