@@ -133,9 +133,9 @@ Switching to hourly chart, most accidents occur during the working hours with pe
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<img src = './images/10temp.png' width='300'><img src = './images/11windchill.png' width='300'>
-<img src = './images/12humidity.png' width='299'><img src = './images/13pressure.png' width='300'>
-<img src = './images/14visibility.png' width='300'><img src = './images/15windspeed.png' width='295'>
+<img src = './images/10temp.png' width='350'><img src = './images/11windchill.png' width='350'>
+<img src = './images/12humidity.png' width='349'><img src = './images/13pressure.png' width='350'>
+<img src = './images/14visibility.png' width='350'><img src = './images/15windspeed.png' width='345'>
 <p>&nbsp;</p>
 These are the other factors of weather itself. Most of the traffic accidents take place in the normal range of these factors. There are some interesting insights that could be derived from this.
 1) Traffic accidents increases as humidity increases. This could mean that driver's behavior is one of the key factors in traffic accidents as high levels of humidity is linked to worse driver's behavior.
