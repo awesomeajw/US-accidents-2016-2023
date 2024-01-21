@@ -133,9 +133,9 @@ Switching to hourly chart, most accidents occur during the working hours with pe
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<img src = './images/10temp.png' width='500'><img src = './images/11windchill.png' width='500'>
-<img src = './images/12humidity.png' width='499'><img src = './images/13pressure.png' width='500'>
-<img src = './images/14visibility.png' width='500'><img src = './images/15windspeed.png' width='495'>
+<img src = './images/10temp.png' width='300'><img src = './images/11windchill.png' width='300'>
+<img src = './images/12humidity.png' width='299'><img src = './images/13pressure.png' width='300'>
+<img src = './images/14visibility.png' width='300'><img src = './images/15windspeed.png' width='295'>
 These are the other factors of weather itself. Most of the traffic accidents take place in the normal range of these factors. There are some interesting insights that could be derived from this.
 1) Traffic accidents increases as humidity increases. This could mean that driver's behavior is one of the key factors in traffic accidents as high levels of humidity is linked to worse driver's behavior.
 2) Low visibility have many traffic accidents. The usual range of visibility is 10-11 miles. Traffic accidents also dramatically reduced after 11miles, which reinforced the idea that high visibility plays a big part in preventing accidents.
