@@ -70,21 +70,21 @@ The purpose of this analysis is to answer a few questions that I have curated fo
 4. **Contributing Factors**
   * What are the primary contributing factors to traffic accidents (e.g., weather conditions)?
 
-There is a few more questions that I have thought up that is not possible to answer with the current dataset. I will talk about them in the limitation and improvement section
+There is a few more questions that I have thought up that is not possible to answer with the current dataset. I will talk about them in the limitation and improvement section.
 
 # Steps Taken📈📊
 I will give a general overview of the steps taking for cleaning and wrangling of the dataset. For the actual code, please refer to my code in this repository. 
 Here is the steps taken:
-1. Look at the percentage of null values for each columns
-2. Decide whether the data should be filled up with means of value or dropped from the datset
-3. Inspect each of the columns carefully and check the values(ie, if its too much of an outlier)
-4. Transform some measurements from the imperial system to the metric system
-5. Consolidate the values in columns to a more manageable size for better analysis 
+1. Look at the percentage of null values for each columns.
+2. Decide whether the data should be filled up with means of value or dropped from the datset.
+3. Inspect each of the columns carefully and check the values(ie, if its too much of an outlier).
+4. Transform some measurements from the imperial system to the metric system.
+5. Consolidate the values in columns to a more manageable size for better analysis.
 
-After the cleaning and wrangling of data, we move the new dataset to Tableau for visualisatioon and data analysis
+After the cleaning and wrangling of data, we move the new dataset to Tableau for visualisatioon and data analysis.
 
 # Visualisations
-Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this [link](https://public.tableau.com/app/profile/aloysius.ang/viz/USaccident2016-2023/MainStory) or click on the link the top of this report
+Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this [link](https://public.tableau.com/app/profile/aloysius.ang/viz/USaccident2016-2023/MainStory) or click on the link the top of this report.
 
 <img src = './images/1map.png' width='500'>
 First, we will look at the overall state of occurence of traffic accidents. There is a spot at the bottom left of US, where many of the traffic accidents happens. The accidents happens around the edge of US more often.
@@ -92,7 +92,7 @@ First, we will look at the overall state of occurence of traffic accidents. Ther
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <img src = './images/2states.png' width='500'>
-Drilling down to the states, we can see that the states with the highest cases are California, Florida, Texas, South Carolina, New York and so on. The states with the lowest cases are South Dakota, Vermont, Maine, North Dakota, Wyoming and so on. The numbers from the first state to the last state is dramatically different. Compared to South Dakota, California have 7080x more cases of traffic accidents. The difference is alarming. This can be due to the density of the state and the amount of coverage the sources has on different states
+Drilling down to the states, we can see that the states with the highest cases are California, Florida, Texas, South Carolina, New York and so on. The states with the lowest cases are South Dakota, Vermont, Maine, North Dakota, Wyoming and so on. The numbers from the first state to the last state is dramatically different. Compared to South Dakota, California have 7080x more cases of traffic accidents. The difference is alarming. This can be due to the density of the state and the amount of coverage the sources has on different states.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -109,17 +109,17 @@ Knowing the sources also can explain the biasness and accuracy between the sourc
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <img src = './images/5year.png' width='500'>
-Year on year trend shows something very interesting. The number of traffic accidents have been climbing steadying over the years and it is a cause for concern. However you can see that Severity 3 accidents has been decreasing over the years, while the less serious Severity 2 traffic accidents have been increasing. Overall, traffic accidents has doubled since 2017
+Year on year trend shows something very interesting. The number of traffic accidents have been climbing steadying over the years and it is a cause for concern. However you can see that Severity 3 accidents has been decreasing over the years, while the less serious Severity 2 traffic accidents have been increasing. Overall, traffic accidents has doubled since 2017.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <img src = './images/6seasonal.png' width='500'>
-Looking at the seasonal trend of traffic accidents, Fall and Winter are on the top of traffic accidents occurence for most of the time. This could be an interesting focus for policy makers to look into. On the latest year with full seasonal data(2022), we can see that there is a spike of traffic accidents in Spring. This may become a cause of concern and should be closely monitored 
+Looking at the seasonal trend of traffic accidents, Fall and Winter are on the top of traffic accidents occurence for most of the time. This could be an interesting focus for policy makers to look into. On the latest year with full seasonal data(2022), we can see that there is a spike of traffic accidents in Spring. This may become a cause of concern and should be closely monitored .
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <img src = './images/7month.png' width='500'>
-Drilling down the the monthly trend, November and December have the most traffic accidents, while the month with the lowest traffic accidents is July. It seems like the holiday period is a big attractor of traffic accidents. Factors such as slippery floors, crowded streets and bad weather due to snow should be looked into  
+Drilling down the the monthly trend, November and December have the most traffic accidents, while the month with the lowest traffic accidents is July. It seems like the holiday period is a big attractor of traffic accidents. Factors such as slippery floors, crowded streets and bad weather due to snow should be looked into.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
@@ -129,7 +129,7 @@ Drilling futher into days of week, it is quite obvious that the weekdays have wa
 <p>&nbsp;</p>
 
 <img src = './images/9time.png' width='500'>
-Switching to hourly chart, most accidents occur during the working hours with peaks at the 6am to 8am mark and 3pm to 5pm mark. One reason could be that people are going and leaving for work, which means more commuting, causing more cases of accidents
+Switching to hourly chart, most accidents occur during the working hours with peaks at the 6am to 8am mark and 3pm to 5pm mark. One reason could be that people are going and leaving for work, which means more commuting, causing more cases of accidents.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
@@ -138,17 +138,17 @@ Switching to hourly chart, most accidents occur during the working hours with pe
 <img src = './images/14visibility.png' width='500'><img src = './images/15windspeed.png' width='495'>
 These are the other factors of weather itself. Most of the traffic accidents take place in the normal range of these factors. There are some interesting insights that could be derived from this.
 1) Traffic accidents increases as humidity increases. This could mean that driver's behavior is one of the key factors in traffic accidents as high levels of humidity is linked to worse driver's behavior.
-2) Low visibility have many traffic accidents. The usual range of visibility is 10-11 miles. Traffic accidents also dramatically reduced after 11miles, which reinforced the idea that high visibility plays a big part in preventing accidents
+2) Low visibility have many traffic accidents. The usual range of visibility is 10-11 miles. Traffic accidents also dramatically reduced after 11miles, which reinforced the idea that high visibility plays a big part in preventing accidents.
 
 <img src = './images/16facts.png' width='500'>
 From the dashboard, it seems like accidents happens nearby traffic signals, crossings and junctions. Places with lesser effects are the stop signs, stations and amenities.
-Further research should be done near these areas to find out why accidents happens near these areas
+Further research should be done near these areas to find out why accidents happens near these areas.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <img src = './images/17weather.png' width='500'>
 From the dashboard, it seems like accidents happens mostly in sunny and cloudy days. 
-It could be derived that visibility plays a big factor in traffic accidents occurring. Driver behaviors may change due to sunny weather and be a cause of traffic accidents
+It could be derived that visibility plays a big factor in traffic accidents occurring. Driver behaviors may change due to sunny weather and be a cause of traffic accidents.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
@@ -162,9 +162,9 @@ Storm and rainy conditions have the highest proportions of severity 3 accidents 
 1) Number of traffic accidents have doubled from 2017
 2) Number of accidents have been Increasing yearly, with the Fall and Winter sesson contributing to more accidents.
 3) Weekdays have more traffic accidents than the weekends.
-4) Timings with the most traffic accidents are when people are going to work or coming back from work
-5) Visbility plays a big part in preventing accidents
-6) Driver's behavior on the road also affect the number of accidents occuring. Weathers that induce high humidity will probably affect the behavior negatively
+4) Timings with the most traffic accidents are when people are going to work or coming back from work.
+5) Visbility plays a big part in preventing accidents.
+6) Driver's behavior on the road also affect the number of accidents occuring. Weathers that induce high humidity will probably affect the behavior negatively.
 
 
 # Challenges Faced:
@@ -172,11 +172,19 @@ Storm and rainy conditions have the highest proportions of severity 3 accidents 
 2) One of the columns, "Weather Condition", have over 100 different descriptions for weather. It is quite a hassle to consolidate them into useful information. To combat that, I have created individual True/False columns and grab the keywords from each of the description to determine whether it falls into these columns.
 3) As it is a big file(3.2gb) with over 7 million rows of data, it is difficult to maneuver around the data. After further research into this matter, I have created a way to take only 2% of the data and explore then to get a good feel of the data and created the necessary cleaning methods before inputting all of the data through cleaning and wrangling.
 
-Future Steps:
-Outline potential next steps or areas for further exploration. This could involve additional analyses, refining visualizations, or incorporating more data sources.
+# Future Steps:
+1) Machine learning could be used to learn what are factors that impact traffic accidents the most. This could help futher solidifying ideas to help with reducting traffic accidents overall.
+2) Population density is an interesting route and idea to explore. Future analysis may want to include it to gather more insight in this matter.
+3) Knowing the sources and how the reports are collected for each of the sources would be great improve clarity of the data. 
 
-Conclusion:
-Summarize the overall findings and the impact of your analysis on understanding US traffic accidents. Conclude with the significance of your work in contributing to road safety or related domains.
+# Conclusion:
+In conclusion, the analysis of traffic accidents over the years has revealed a concerning trend of increasing incidents annually. The data paints a vivid picture of the challenges we face on our roads, pointing to a growing need for comprehensive measures to address this escalating issue. The rising number of accidents demands attention from policymakers and the community. 
 
-Feedback and Contributions:
-Encourage others to provide feedback or contribute to your project. Specify how they can get in touch or submit pull requests.
+It is crucial to recognize that tackling the root causes of increasing traffic accidents requires a multi-faceted approach. Collaboration between government agencies, local authorities, and the public is essential to creating and implementing effective solutions. Overall, the data has been insightful and could be futher use to improve the safety of the US roads. 
+
+
+
+
+
+
+
