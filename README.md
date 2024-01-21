@@ -134,24 +134,43 @@ Switching to hourly chart, most accidents occur during the working hours with pe
 <p>&nbsp;</p>
 
 <img src = './images/10temp.png' width='500'><img src = './images/11windchill.png' width='500'>
-<img src = './images/12humidity.png' width='506'><img src = './images/13pressure.png' width='500'>
-<img src = './images/14visibility.png' width='500'><img src = './images/15windspeed.png' width='500'>
+<img src = './images/12humidity.png' width='499'><img src = './images/13pressure.png' width='500'>
+<img src = './images/14visibility.png' width='500'><img src = './images/15windspeed.png' width='495'>
+These are the other factors of weather itself. Most of the traffic accidents take place in the normal range of these factors. There are some interesting insights that could be derived from this.
+1) Traffic accidents increases as humidity increases. This could mean that driver's behavior is one of the key factors in traffic accidents as high levels of humidity is linked to worse driver's behavior.
+2) Low visibility have many traffic accidents. The usual range of visibility is 10-11 miles. Traffic accidents also dramatically reduced after 11miles, which reinforced the idea that high visibility plays a big part in preventing accidents
 
 <img src = './images/16facts.png' width='500'>
+From the dashboard, it seems like accidents happens nearby traffic signals, crossings and junctions. Places with lesser effects are the stop signs, stations and amenities.
+Further research should be done near these areas to find out why accidents happens near these areas
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 <img src = './images/17weather.png' width='500'>
+From the dashboard, it seems like accidents happens mostly in sunny and cloudy days. 
+It could be derived that visibility plays a big factor in traffic accidents occurring. Driver behaviors may change due to sunny weather and be a cause of traffic accidents
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 <img src = './images/18weatherseverity.png' width='500'>
+The percentage of severity for each weather conditions seems to be around the same proportion. 
+Storm and rainy conditions have the highest proportions of severity 3 accidents while tornado conditions have the highest proportion of severity 4 accidents.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-Key Insights:
-Summarize the key insights derived from your analysis. This could include trends, patterns, correlations, or any unexpected findings.
+# Key Insights:
+1) Number of traffic accidents have doubled from 2017
+2) Number of accidents have been Increasing yearly, with the Fall and Winter sesson contributing to more accidents.
+3) Weekdays have more traffic accidents than the weekends.
+4) Timings with the most traffic accidents are when people are going to work or coming back from work
+5) Visbility plays a big part in preventing accidents
+6) Driver's behavior on the road also affect the number of accidents occuring. Weathers that induce high humidity will probably affect the behavior negatively
 
-Challenges Faced:
-Discuss any challenges encountered during the data cleaning process or while creating visualizations. Explain how you addressed these challenges.
+
+# Challenges Faced:
+1) During the data cleaning process, it was difficult to know what the individual columns meant. It is tough to make out what the units meant and what does some value represent. It took a bit of research to understand.
+2) One of the columns, "Weather Condition", have over 100 different descriptions for weather. It is quite a hassle to consolidate them into useful information. To combat that, I have created individual True/False columns and grab the keywords from each of the description to determine whether it falls into these columns.
+3) As it is a big file(3.2gb) with over 7 million rows of data, it is difficult to maneuver around the data. After further research into this matter, I have created a way to take only 2% of the data and explore then to get a good feel of the data and created the necessary cleaning methods before inputting all of the data through cleaning and wrangling.
 
 Future Steps:
 Outline potential next steps or areas for further exploration. This could involve additional analyses, refining visualizations, or incorporating more data sources.
