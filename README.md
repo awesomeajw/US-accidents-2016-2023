@@ -87,29 +87,80 @@ After the cleaning and wrangling of data, we move the new dataset to Tableau for
 Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this [link](https://public.tableau.com/app/profile/aloysius.ang/viz/USaccident2016-2023/MainStory) or click on the link the top of this report
 
 <img src = './images/1map.png' width='1000'>
-1) First, we will look at the overall state of occurence of traffic accidents. There is a spot at the bottom left of US, where many of the traffic accidents happens. The accidents happens around the edge of US more often.
+First, we will look at the overall state of occurence of traffic accidents. There is a spot at the bottom left of US, where many of the traffic accidents happens. The accidents happens around the edge of US more often.
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/2states.png' width='1000'>
-2) Drilling down to the states, we can see that the states with the highest cases are California, Florida, Texas, South Carolina, New York and so on. The states with the lowest cases are South Dakota, Vermont, Maine, North Dakota, Wyoming and so on. The numbers from the first state to the last state is dramatically different. Compared to South Dakota, California have 7080x more cases of traffic accidents. The difference is alarming. This can be due to the density of the state and the amount of coverage the sources has on different states
+Drilling down to the states, we can see that the states with the highest cases are California, Florida, Texas, South Carolina, New York and so on. The states with the lowest cases are South Dakota, Vermont, Maine, North Dakota, Wyoming and so on. The numbers from the first state to the last state is dramatically different. Compared to South Dakota, California have 7080x more cases of traffic accidents. The difference is alarming. This can be due to the density of the state and the amount of coverage the sources has on different states
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/3city.png' width='1000'>
-3) Drilling down to the cities view, we see that the cities with the highest cases are Miami, Houston, Los Angeles, Charlotte, Dallas. The cities with the lowest cases are actually a lot of them in together. There is 761 cities with only 1 traffic accident recorded from 2016 to 2023. This is very suspicious and would seems to be due to the coverage that these cities gets from the media.
+Drilling down to the cities view, we see that the cities with the highest cases are Miami, Houston, Los Angeles, Charlotte, Dallas. The cities with the lowest cases are actually a lot of them in together. There is 761 cities with only 1 traffic accident recorded from 2016 to 2023. This is very suspicious and would seems to be due to the coverage that these cities gets from the media.
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/4sourceseverity.png' width='1000'>
+Source 1 have reported more accidents. Also, they have more accidents that is deemed as the worst severity. 
+Would look into what are the different sources to understand why Source3 have less than 1% of accident reports compared to Source1 and Source2. 
+Knowing the sources also can explain the biasness and accuracy between the sources and make a better assumption of how each sources determine the severity of the accident.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/5year.png' width='1000'>
+Year on year trend shows something very interesting. The number of traffic accidents have been climbing steadying over the years and it is a cause for concern. However you can see that Severity 3 accidents has been decreasing over the years, while the less serious Severity 2 traffic accidents have been increasing. Overall, traffic accidents has doubled since 2017
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <img src = './images/6seasonal.png' width='1000'>
+Looking at the seasonal trend of traffic accidents, Fall and Winter are on the top of traffic accidents occurence for most of the time. This could be an interesting focus for policy makers to look into. On the latest year with full seasonal data(2022), we can see that there is a spike of traffic accidents in Spring. This may become a cause of concern and should be closely monitored 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <img src = './images/7month.png' width='1000'>
+Drilling down the the monthly trend, November and December have the most traffic accidents, while the month with the lowest traffic accidents is July. It seems like the holiday period is a big attractor of traffic accidents. Factors such as slippery floors, crowded streets and bad weather due to snow should be looked into  
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <img src = './images/8dayofweek.png' width='1000'>
+Drilling futher into days of week, it is quite obvious that the weekdays have way more accidents than the weekends.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <img src = './images/9time.png' width='1000'>
+Switching to hourly chart, most accidents occur during the working hours with peaks at the 6am to 8am mark and 3pm to 5pm mark.
+One reason could be that people are going and leaving for work, which means more commuting, causing more cases of accidents
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 <img src = './images/10temp.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/11windchill.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/12humidity.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/13pressure.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/14visibility.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/15windspeed.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/16facts.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/17weather.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <img src = './images/18weatherseverity.png' width='1000'>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Key Insights:
 Summarize the key insights derived from your analysis. This could include trends, patterns, correlations, or any unexpected findings.
