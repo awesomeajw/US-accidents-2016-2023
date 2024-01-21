@@ -83,7 +83,7 @@ Here is the steps taken:
 
 After the cleaning and wrangling of data, we move the new dataset to Tableau for visualisatioon and data analysis.
 
-# Visualisations
+# Visualisations📈📊
 Here are the visualisations created in my tableau, for more interactions and drilldowns, please follow this [link](https://public.tableau.com/app/profile/aloysius.ang/viz/USaccident2016-2023/MainStory) or click on the link the top of this report.
 
 <img src = './images/1map.png' width='500'>
@@ -158,7 +158,7 @@ Storm and rainy conditions have the highest proportions of severity 3 accidents 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-# Key Insights:
+# Key Insights📈📊:
 1) Number of traffic accidents have doubled from 2017
 2) Number of accidents have been Increasing yearly, with the Fall and Winter sesson contributing to more accidents.
 3) Weekdays have more traffic accidents than the weekends.
@@ -167,17 +167,17 @@ Storm and rainy conditions have the highest proportions of severity 3 accidents 
 6) Driver's behavior on the road also affect the number of accidents occuring. Weathers that induce high humidity will probably affect the behavior negatively.
 
 
-# Challenges Faced:
+# Challenges Faced📈📊:
 1) During the data cleaning process, it was difficult to know what the individual columns meant. It is tough to make out what the units meant and what does some value represent. It took a bit of research to understand.
 2) One of the columns, "Weather Condition", have over 100 different descriptions for weather. It is quite a hassle to consolidate them into useful information. To combat that, I have created individual True/False columns and grab the keywords from each of the description to determine whether it falls into these columns.
 3) As it is a big file(3.2gb) with over 7 million rows of data, it is difficult to maneuver around the data. After further research into this matter, I have created a way to take only 2% of the data and explore then to get a good feel of the data and created the necessary cleaning methods before inputting all of the data through cleaning and wrangling.
 
-# Future Steps:
+# Future Steps📈📊:
 1) Machine learning could be used to learn what are factors that impact traffic accidents the most. This could help futher solidifying ideas to help with reducting traffic accidents overall.
 2) Population density is an interesting route and idea to explore. Future analysis may want to include it to gather more insight in this matter.
 3) Knowing the sources and how the reports are collected for each of the sources would be great improve clarity of the data. 
 
-# Conclusion:
+# Conclusion📈📊:
 In conclusion, the analysis of traffic accidents over the years has revealed a concerning trend of increasing incidents annually. The data paints a vivid picture of the challenges we face on our roads, pointing to a growing need for comprehensive measures to address this escalating issue. The rising number of accidents demands attention from policymakers and the community. 
 
 It is crucial to recognize that tackling the root causes of increasing traffic accidents requires a multi-faceted approach. Collaboration between government agencies, local authorities, and the public is essential to creating and implementing effective solutions. Overall, the data has been insightful and could be futher use to improve the safety of the US roads. 
